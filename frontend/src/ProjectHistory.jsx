@@ -68,7 +68,7 @@ function ProjectHistory({projectId, tab}) {
                                 <div className="d-flex flex-row gap-2 align-items-center m-1">
                                     <Button variant="outline-dark" className="info-icon" onClick={() => showTaskModel(task)}>i</Button>
                                     <div>
-                                        {task.detail.substring(0, 50)}{task.detail.length > 50 ? '...': null}
+                                        {task.name.substring(0, 50)}{task.detail.length > 50 ? '...': null}
                                     </div>
                                 </div>
                                 <div className="box-info m-1">
